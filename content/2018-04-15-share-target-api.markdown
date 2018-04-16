@@ -8,16 +8,16 @@ description: "Share Target API is now in Chrome breaking down one of the last si
 
 I'm constantly worried that on the web platform we are creating [unintended
 silos](/unintended-silos) by making it harder to get data in and out of web
-sites and apps, more importantly I worry that the data only flows one way: from
+sites and apps, more importantly, I worry that the data only flows one way: from
 the web to apps, because apps can be in all the places that users expect them to
 be on their devices.
 
-I was pretty pleased that Chrome started to work [on the Share Target
+I was pretty pleased that Chrome started to work [on the Web Share Target
 API](/breaking-down-silos-with-share-target-api) that complements the work on
 [navigator.share](/navigator.share). Where `navigator.share` lets you share
 information out of your web site to any app on the users device that can
-reciveve 'shares' (Intent.ACTION_SEND in Android parlance), the Web Share Target
-let's your web site (or PWA) say 'I want to play in that game too'.
+reciveve 'shares' (`Intent.ACTION_SEND` in Android parlance), the Web Share Target
+lets your web site (or PWA) say 'I want to play in that game too'.
 
 I'm pretty pleased to say that this work is now available in Chrome on Android.
 
@@ -69,7 +69,7 @@ Right now there are some limitations:
 * It's not standardised yet as part of the manifest spec. :/
 
 Limitations aside, this is a rather amazing addition to the web platform that is
-the start of breaking down the huge barriers that the web with regards to
+the start of breaking down the huge barriers that the web still has with regards to
 integration on the host platforms.
 
 If you want to track updates to this API, check out Chrome
